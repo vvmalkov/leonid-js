@@ -2,9 +2,10 @@
 import { useState } from "react";
 
 import ErrorIcon from "@mui/icons-material/Error";
-import { CustomButton } from "./shared/components";
+import { CustomButton } from "./app/shared/components";
 
 import { FetchUser, Timer } from "./app/features";
+import { HomePage } from "@/pages";
 
 function App() {
   //<> </> это пустой div (или фрагмент)
@@ -40,8 +41,10 @@ function App() {
         Готово
       </Button> */}
 
-      {/* <FetchUser /> */}
-      <Timer />
+      <FetchUser />
+
+      {/* <Timer /> */}
+      {/* <HomePage /> */}
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import { CustomButton } from "../../../shared/components";
+import { CustomButton } from "../../shared/components";
 import { useCallback, useRef, useState } from "react";
 
 export const Timer = () => {
